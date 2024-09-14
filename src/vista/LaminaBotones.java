@@ -38,9 +38,9 @@ public class LaminaBotones extends JPanel {
 	private JPanel getLaminaBotonesArimeticos () {
 		JPanel laminaArimetico =new JPanel();
 		laminaArimetico.setPreferredSize(new Dimension(100,0));
-		laminaArimetico.setLayout(new GridLayout(4,1));
-		String[] caracteresAritmeticos= {"+","-","x","/"};
-		for (int i = 0; i < 4; i++) {
+		laminaArimetico.setLayout(new GridLayout(5,1));
+		String[] caracteresAritmeticos= {"CE","+","-","x","/"};
+		for (int i = 0; i < 5; i++) {
 			 botonesGenerador =
 					 new JButton(new AccionesAritmeticas (caracteresAritmeticos[i],i));
 			 laminaArimetico.add(botonesGenerador);

@@ -20,6 +20,10 @@ public class AccionesAritmeticas  extends AbstractAction{
 
 	String accionAritmetica = e.getActionCommand();
 //	var gracias= LaminaPantalla.getPantalla().getText();
+	if(accionAritmetica=="CE") {
+		LaminaPantalla.getPantalla().setText("");
+		resultado=0;
+	}
 	if(accionAritmetica=="+") {
 		ObtenerPrimero(); 
 		tomar="+";

@@ -2,6 +2,7 @@ package vista;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.Toolkit;
 
 import javax.swing.ImageIcon;
@@ -18,7 +19,8 @@ public class MarcoCalculadora  extends JFrame{
 	setIconImage(new ImageIcon("bin/images/icons/calculadora.png").getImage());
 	add(new LaminaPantalla(),BorderLayout.NORTH);
 	add(new LaminaBotones(),BorderLayout.CENTER);
-	
+	setTitle("Calculadora");
+//	setFont(new Font("Serial",Font.BOLD,12));
 }
 	private Dimension pantallaPorDfecto() {
 	   Toolkit getDefaultTool = Toolkit.getDefaultToolkit();
