@@ -1,3 +1,3 @@
 # Calculadora
 
-Calculadora que realiza las operaciones simples aritmeticas de **sumar**, **restar**, **multiplicar** y **dividir**.
+Calculadora que realiza las  simples operaciones aritmeticas de **sumar**, **restar**, **multiplicar** y **dividir**.
